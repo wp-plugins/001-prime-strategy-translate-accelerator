@@ -3,7 +3,7 @@ Contributors: primestrategy
 Tags: translate, speed up
 Requires at least: 2.9
 Tested up to: 3.2.1
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 
 This plugin makes the translation file cashes, and shortens the execution time to display of your WordPress site.
 
