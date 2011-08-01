@@ -5,7 +5,7 @@
 /*
 Plugin Name: 001 Prime Strategy Translate Accelerator
 Plugin URI: http://www.web-strategy.jp/wp_plugin/translate_accelerator/
-Description: This plugin makes the translation file cashes, and shortens the execution time to display of your WordPress site.
+Description: This plugin makes the translation cache files, and shortens the execution time to display of your WordPress site.
 Version: 1.0.4
 Author: Prime Strategy Co.,Ltd
 Author URI: http://www.prime-strategy.co.jp/
@@ -232,11 +232,11 @@ function setting_page() {
 
 		<table class="form-table">
 			<tr>
-				<th><?php _e( 'Enable the translation cash.', 'prime-strategy-transelate-accelerator' ); ?></th>
+				<th><?php _e( 'Enable the translation cache.', 'prime-strategy-transelate-accelerator' ); ?></th>
 				<td>
 					<label for="activate">
 						<input type="checkbox" name="activate" id="activate" value="1"<?php echo $s['activate'] == 1 ? ' checked="checked"' : ''; ?> />
-						<?php _e( 'Enable the translation cash.', 'prime-strategy-transelate-accelerator' ); ?>
+						<?php _e( 'Enable the translation cache.', 'prime-strategy-transelate-accelerator' ); ?>
 					</label>
 				</td>
 			</tr>
@@ -286,7 +286,7 @@ function setting_page() {
 				<td>
 					<label for="cache_force_delete">
 						<input type="checkbox" name="cache_force_delete" id="cache_force_delete" value="1" />
-						<?php _e( 'Force to delete all the caches.', 'prime-strategy-transelate-accelerator' ); ?>
+						<?php _e( 'Force to delete all the cache.', 'prime-strategy-transelate-accelerator' ); ?>
 					</label>
 				</td>
 			</tr>

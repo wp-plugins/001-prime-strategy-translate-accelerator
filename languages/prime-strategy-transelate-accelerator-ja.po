@@ -2,8 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PS translate accelarator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-13 20:19+0900\n"
-"PO-Revision-Date: 2011-07-20 12:02+0900\n"
+"POT-Creation-Date: 2011-08-01 15:20+0900\n"
+"PO-Revision-Date: 2011-08-01 15:24+0900\n"
+"Last-Translator: \n"
 "Language-Team: Prime Strategy <staff@prime-strategy.co.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,69 +15,83 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Language: Japanese\n"
 "X-Poedit-Country: JAPAN\n"
-"Last-Translator: Hitoshi Omagari <jim912@nifty.com>\n"
-"X-Poedit-SearchPath-0: 01-prime-strategy-translate-accelerator\n"
+"X-Poedit-SearchPath-0: 001-prime-strategy-translate-accelerator\n"
 
 #: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:8
-msgid "This plugin makes the translation file cashes, and shortens the execution time to display of your WordPress site."
+msgid "This plugin makes the translation cache files, and shortens the execution time to display of your WordPress site."
 msgstr "翻訳ファイルの読み込みをキャッシュ化し、表示までにかかる実行時間を短縮します。"
 
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:240
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:244
-msgid "Enable the translation cash."
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:235
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:239
+msgid "Enable the translation cache."
 msgstr "キャッシュを有効にする"
 
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:249
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:244
 msgid "Cache type"
 msgstr "キャッシュタイプ"
 
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:252
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:247
 msgid "Files"
 msgstr "ファイル"
 
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:253
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:248
 msgid "Cache directory :"
 msgstr "キャッシュのディレクトリー："
 
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:255
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:250
 msgid "APC"
 msgstr "APC"
 
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:260
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:255
 msgid "Translation of site pages."
 msgstr "サイト表示の翻訳"
 
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:263
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:273
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:283
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:258
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:268
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:278
 msgid "Enable cache"
 msgstr "キャッシュを使用"
 
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:264
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:274
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:284
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:259
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:269
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:279
 msgid "Stop translate"
 msgstr "翻訳を停止"
 
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:265
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:275
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:285
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:260
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:270
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:280
 msgid "Translate normaly"
 msgstr "通常翻訳"
 
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:270
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:265
 msgid "Translation of the login/signup page."
 msgstr "ログイン/サインアップ画面の翻訳"
 
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:280
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:275
 msgid "Translation of the admin page."
 msgstr "管理画面の翻訳"
 
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:290
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:285
 msgid "Delete cache."
 msgstr "キャッシュを削除"
 
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:294
-msgid "Force to delete all the caches."
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:289
+msgid "Force to delete all the cache."
 msgstr "キャッシュの強制削除を行う"
+
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:294
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:332
+msgid "Settings"
+msgstr "設定"
+
+#~ msgid ""
+#~ "This plugin makes the translation file cashes, and shortens the execution "
+#~ "time to display of your WordPress site."
+#~ msgstr ""
+#~ "翻訳ファイルの読み込みをキャッシュ化し、表示までにかかる実行時間を短縮しま"
+#~ "す。"
 

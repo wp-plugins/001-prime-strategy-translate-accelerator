@@ -3,23 +3,23 @@ Contributors: primestrategy
 Tags: translate, speed up
 Requires at least: 2.9
 Tested up to: 3.2.1
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 
-This plugin makes the translation file cashes, and shortens the execution time to display of your WordPress site.
+This plugin makes the cache files of the WordPress translation, and shortens the execution time to display of your WordPress site.
 
 == Description ==
-This plugin makes the translation file cashes, and shortens the execution time to display of your WordPress site.
+This plugin makes the translation cache files, and shortens the execution time to display of your WordPress site.
 
 = Functions =
-1. Cashes the translation files to shorten reading time to display faster.
-2. In the environment in which APC is installed, the cash function of APC can be used, and it operates more faster.
+1. Make cache files of the translation to shorten reading time to display faster.
+2. In the environment in which APC is installed, you can use the cache function of APC, and your site will operate more faster.
 
 == Installation ==
 
-1. Upload the "001-prime-strategy-translate-accelerator" folder to the plugins directory in your WordPress installation
+1. Upload the "001-prime-strategy-translate-accelerator" directory to the plugins directory.
 2. Give  a permission of writing  to the cache directory. The default setting of the cache directory is  "001-prime-strategy-translate-accelerator/cache".
-3. Go to plugins list and activate "001 Prime Strategy Translate Accelerator". 
-4. Set the various options of the translation cash from the menu of "Translate Accelerator".
+3. Go to the plugins setting page and activate "001 Prime Strategy Translate Accelerator". 
+4. Set the various options of the translation cache from the menu of "Translate Accelerator".
 
 
 == Changelog ==
@@ -28,7 +28,7 @@ This plugin makes the translation file cashes, and shortens the execution time t
 
 == Screenshots ==
 1. Option setting page.
-2. Result list of this plulgin.
+2. Effects of this plulgin.
 
 == Links ==
 "[PS Auto Sitemap](http://wordpress.org/extend/plugins/ps-auto-sitemap/ "WordPress sitemap plugin")" is a plugin automatically generates a site map page from your WordPress site. 
