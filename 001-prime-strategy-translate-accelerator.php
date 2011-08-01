@@ -6,7 +6,7 @@
 Plugin Name: 001 Prime Strategy Translate Accelerator
 Plugin URI: http://www.web-strategy.jp/wp_plugin/translate_accelerator/
 Description: This plugin makes the translation cache files, and shortens the execution time to display of your WordPress site.
-Version: 1.0.4
+Version: 1.0.5
 Author: Prime Strategy Co.,Ltd
 Author URI: http://www.prime-strategy.co.jp/
 License: GPLv2 or later
