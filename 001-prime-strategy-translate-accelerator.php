@@ -5,8 +5,8 @@
 /*
 Plugin Name: 001 Prime Strategy Translate Accelerator
 Plugin URI: http://www.web-strategy.jp/wp_plugin/translate_accelerator/
-Description: This plugin makes the translation cache files, and shortens the execution time to display of your WordPress site.
-Version: 1.0.6
+Description: This plugin makes the translation cache files, and shortens the execution time to display your WordPress site.
+Version: 1.0.7
 Author: Prime Strategy Co.,Ltd
 Author URI: http://www.prime-strategy.co.jp/
 License: GPLv2 or later
@@ -25,7 +25,7 @@ class Prime_Strategy_Translate_Accelerator {
 var $setting;
 var $default;
 var $file_cache_dir;
-var $version = '1.0.6';
+var $version = '1.0.7';
 
 function Prime_Strategy_Translate_Accelerator() {
 	$this->__construct();
@@ -232,11 +232,11 @@ function setting_page() {
 
 		<table class="form-table">
 			<tr>
-				<th><?php _e( 'Enable the translation cache.', 'prime-strategy-transelate-accelerator' ); ?></th>
+				<th><?php _e( 'Enable to cache the translation files.', 'prime-strategy-transelate-accelerator' ); ?></th>
 				<td>
 					<label for="activate">
 						<input type="checkbox" name="activate" id="activate" value="1"<?php echo $s['activate'] == 1 ? ' checked="checked"' : ''; ?> />
-						<?php _e( 'Enable the translation cache.', 'prime-strategy-transelate-accelerator' ); ?>
+						<?php _e( 'Enable to cache the translation files.', 'prime-strategy-transelate-accelerator' ); ?>
 					</label>
 				</td>
 			</tr>
@@ -252,41 +252,41 @@ function setting_page() {
 				</td>
 			</tr>
 			<tr>
-				<th><?php _e( 'Translation of site pages.', 'prime-strategy-transelate-accelerator' ); ?></th>
+				<th><?php _e( 'Translated text displayed in your site', 'prime-strategy-transelate-accelerator' ); ?></th>
 				<td>
 					<select name="frontend">
 						<option value="cache"<?php echo $s['frontend'] == 'cache' ? ' selected="selected"' : ''; ?>><?php _e( 'Enable cache', 'prime-strategy-transelate-accelerator' ); ?></option>
-						<option value="cutoff"<?php echo $s['frontend'] == 'cutoff' ? ' selected="selected"' : ''; ?>><?php _e( 'Stop translate', 'prime-strategy-transelate-accelerator' ); ?></option>
-						<option value="defalut"<?php echo $s['frontend'] == 'defalut' ? ' selected="selected"' : ''; ?>><?php _e( 'Translate normaly', 'prime-strategy-transelate-accelerator' ); ?></option>
+						<option value="cutoff"<?php echo $s['frontend'] == 'cutoff' ? ' selected="selected"' : ''; ?>><?php _e( 'Disable translation', 'prime-strategy-transelate-accelerator' ); ?></option>
+						<option value="defalut"<?php echo $s['frontend'] == 'defalut' ? ' selected="selected"' : ''; ?>><?php _e( 'Use language file/s for translation', 'prime-strategy-transelate-accelerator' ); ?></option>
 					</select>
 				</td>
 			</tr>
 			<tr>
-				<th><?php _e( 'Translation of the login/signup page.', 'prime-strategy-transelate-accelerator' ); ?></th>
+				<th><?php _e( 'Login/signup page translation', 'prime-strategy-transelate-accelerator' ); ?></th>
 				<td>
 					<select name="wp-login">
 						<option value="cache"<?php echo $s['wp-login'] == 'cache' ? ' selected="selected"' : ''; ?>><?php _e( 'Enable cache', 'prime-strategy-transelate-accelerator' ); ?></option>
-						<option value="cutoff"<?php echo $s['wp-login'] == 'cutoff' ? ' selected="selected"' : ''; ?>><?php _e( 'Stop translate', 'prime-strategy-transelate-accelerator' ); ?></option>
-						<option value="defalut"<?php echo $s['wp-login'] == 'defalut' ? ' selected="selected"' : ''; ?>><?php _e( 'Translate normaly', 'prime-strategy-transelate-accelerator' ); ?></option>
+						<option value="cutoff"<?php echo $s['wp-login'] == 'cutoff' ? ' selected="selected"' : ''; ?>><?php _e( 'Disable translation', 'prime-strategy-transelate-accelerator' ); ?></option>
+						<option value="defalut"<?php echo $s['wp-login'] == 'defalut' ? ' selected="selected"' : ''; ?>><?php _e( 'Use language file/s for translation', 'prime-strategy-transelate-accelerator' ); ?></option>
 					</select>
 				</td>
 			</tr>
 			<tr>
-				<th><?php _e( 'Translation of the admin page.', 'prime-strategy-transelate-accelerator' ); ?></th>
+				<th><?php _e( 'Admin pages translation', 'prime-strategy-transelate-accelerator' ); ?></th>
 				<td>
 					<select name="admin">
 						<option value="cache"<?php echo $s['admin'] == 'cache' ? ' selected="selected"' : ''; ?>><?php _e( 'Enable cache', 'prime-strategy-transelate-accelerator' ); ?></option>
-						<option value="cutoff"<?php echo $s['admin'] == 'cutoff' ? ' selected="selected"' : ''; ?>><?php _e( 'Stop translate', 'prime-strategy-transelate-accelerator' ); ?></option>
-						<option value="defalut"<?php echo $s['admin'] == 'defalut' ? ' selected="selected"' : ''; ?>><?php _e( 'Translate normaly', 'prime-strategy-transelate-accelerator' ); ?></option>
+						<option value="cutoff"<?php echo $s['admin'] == 'cutoff' ? ' selected="selected"' : ''; ?>><?php _e( 'Disable translation', 'prime-strategy-transelate-accelerator' ); ?></option>
+						<option value="defalut"<?php echo $s['admin'] == 'defalut' ? ' selected="selected"' : ''; ?>><?php _e( 'Use language file/s for translation', 'prime-strategy-transelate-accelerator' ); ?></option>
 					</select>
 				</td>
 			</tr>
 			<tr>
-				<th><?php _e( 'Delete cache.', 'prime-strategy-transelate-accelerator' ); ?></th>
+				<th><?php _e( 'Delete cache', 'prime-strategy-transelate-accelerator' ); ?></th>
 				<td>
 					<label for="cache_force_delete">
 						<input type="checkbox" name="cache_force_delete" id="cache_force_delete" value="1" />
-						<?php _e( 'Force to delete all the cache.', 'prime-strategy-transelate-accelerator' ); ?>
+						<?php _e( 'Force deletion of all cache', 'prime-strategy-transelate-accelerator' ); ?>
 					</label>
 				</td>
 			</tr>

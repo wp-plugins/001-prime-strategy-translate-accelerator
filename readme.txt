@@ -3,7 +3,7 @@ Contributors: primestrategy
 Tags: translate, speed up
 Requires at least: 2.9
 Tested up to: 3.2.1
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 
 This plugin makes the cache files of the WordPress translation, and shortens the execution time to display of your WordPress site.
 
@@ -14,6 +14,9 @@ This plugin makes the translation cache files, and shortens the execution time t
 1. Make cache files of the translation to shorten reading time to display faster.
 2. In the environment in which APC is installed, you can use the cache function of APC, and your site will operate more faster.
 
+= Special Thanks =
+English Translation:[Odyssey](http://www.odysseygate.com/ "Translation")
+
 == Installation ==
 
 1. Upload the "001-prime-strategy-translate-accelerator" directory to the plugins directory.
@@ -23,6 +26,8 @@ This plugin makes the translation cache files, and shortens the execution time t
 
 
 == Changelog ==
+= 1.0.7 =
+* refine English Translation.
 = 1.0.6 =
 * Fix: miss spelled variable.
 = 1.0.3 =

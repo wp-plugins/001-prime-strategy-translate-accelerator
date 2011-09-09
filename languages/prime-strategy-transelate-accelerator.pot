@@ -76,12 +76,3 @@ msgstr ""
 #: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:289
 msgid "Force to delete all the cache."
 msgstr ""
-
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:294
-msgid "Save Changes"
-msgstr ""
-
-#: 001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php:332
-msgid "Settings"
-msgstr ""
-
