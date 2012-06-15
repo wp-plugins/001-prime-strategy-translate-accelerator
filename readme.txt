@@ -2,8 +2,8 @@
 Contributors: primestrategy
 Tags: translate, speed up
 Requires at least: 2.9
-Tested up to: 3.2.1
-Stable tag: 1.0.7
+Tested up to: 3.4
+Stable tag: 1.0.8
 
 This plugin makes the cache files of the WordPress translation, and shortens the execution time to display of your WordPress site.
 
@@ -26,6 +26,8 @@ English Translation:[Odyssey](http://www.odysseygate.com/ "Translation")
 
 
 == Changelog ==
+= 1.0.8 =
+* compatible to WordPress 3.4
 = 1.0.7 =
 * refine English Translation.
 = 1.0.6 =
