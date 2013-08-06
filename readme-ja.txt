@@ -2,8 +2,8 @@
 Contributors: primestrategy
 Tags: translate, speed up
 Requires at least: 2.9
-Tested up to: 3.4
-Stable tag: 1.0.8
+Tested up to: 3.6
+Stable tag: 1.0.9
 
 翻訳ファイルの読み込みをキャッシュ化、もしくは読み込み自体を停止し、表示までにかかる実行時間を短縮します。APCがインストールされている環境では、APCのユーザーキャッシュ機構を利用して、ファイルキャッシュよりも高速に動作させることも可能です。
 
@@ -23,6 +23,9 @@ Stable tag: 1.0.8
 4. 設定のTranslate Acceleratorメニューから、翻訳キャッシュの各種設定を行って下さい。
 
 == Changelog ==
+= 1.0.9 =
+* WordPress 3.6 対応
+* ルーマニア語追加
 = 1.0.8 =
 * WordPress 3.4 対応
 = 1.0.7 =
